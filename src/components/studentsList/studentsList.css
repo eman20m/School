@@ -1,0 +1,47 @@
+.sectioH {
+  background-color: #1d2b36;
+  height: 200px;
+}
+.sectionH p {
+  color: #8da2b3;
+}
+  
+.pagination {
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+  border-radius: .375rem;
+}
+  
+.page-link {
+    cursor: pointer;
+    line-height: 1.25;
+    position: relative;
+    display: block;
+    margin-left: -1px;
+    padding: .5rem .75rem;
+    color: #1d2b36;
+    border: 1px solid #dee2e6;
+    background-color: #fff;
+}
+  
+.page-item.active .page-link {
+    box-shadow: 0 7px 14px #1d2b36, 0 3px 6px rgba(0, 0, 0, .08);
+    background-color: #1d2b36;
+    border-color: #dee2e6;
+
+}
+  
+.page-item .page-link,
+.page-item span {
+    font-size: .875rem;
+    display: flex;
+    width: 36px;
+    height: 36px;
+    margin: 0 3px;
+    padding: 0;
+    border-radius: 50% !important;
+    align-items: center;
+    justify-content: center;
+    border-color: #dee2e6;
+}

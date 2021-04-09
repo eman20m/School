@@ -1,0 +1,52 @@
+
+a{
+    color: #8da2b3;
+    cursor: pointer;
+}
+a:hover{
+    color: #1d2b36;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.bodyLogin{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+.bodyLogin .row{
+    justify-content: center;
+}
+
+.bodyLogin .login{
+            justify-content: start;
+            border: solid 1px #1d2b36;
+            border-radius: 5px;
+            box-shadow: 20px -20px #1d2b36 ;
+            width: 450px;
+            height: 450px;
+            padding: 60px;
+            padding-top: 15px;
+}
+.bodyLogin h1{
+    text-align: center;
+    color: black;
+}
+.bodyLogin .form-control,.btn{
+    margin-left: 0;
+    width: 300px;
+    height: 50px;
+}
+
+.bodyLogin .form-check{
+    width: auto;
+}
+.bodyLogin p{
+    text-align: center;
+    margin-top: 20px;
+}
+.bodyLogin .btn{
+    background-color: #1d2b36;
+}
+        
